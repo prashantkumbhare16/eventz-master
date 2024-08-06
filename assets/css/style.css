@@ -3755,7 +3755,7 @@ hr {
 }
 
 .footer-area {
-    background: #441984
+    background: #7f2c82;
 }
 
 .footer-area .footer-social2 a:hover {
@@ -3868,7 +3868,7 @@ hr {
 }
 
 .footer-bottom-area {
-    background: #441984;
+    background: #7f2c82;
 }
 
 .footer-bottom-area .footer-border {
@@ -3896,7 +3896,7 @@ hr {
 }
 
 .footer-bottom-area .footer-copy-right p i {
-    color: #742F8A
+    color: red
 }
 
 .footer-bottom-area .footer-copy-right p a {
@@ -6869,14 +6869,29 @@ del {
     justify-content: space-around;
     justify-items: center;
     padding: 3px;
-    background-color: #260656;
+    background-color: rgba(127,44,130,.1);
+    box-shadow: inset 0 -1px 0 0 #7f2c82;
     color: white;
     width: 100%;
 
 }
 
 .padit{
-    padding: 10px;
+    padding: 8px;
+}
+.padit li a{
+    border: solid #7f2c82 1px;
+    padding: 6px;
+    border-radius: 35px;
+}
+.padit a{
+    font-weight: 700;
+    color: #069;
+    font-size: 13px;
+    color: #7f2c82;
+    border-right: 1px solid rgba(0, 102, 153, .2);
+    padding: 0 13px;
+
 }
 
 #ieee-logo-from-website {
